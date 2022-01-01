@@ -14,5 +14,15 @@ namespace VirtualOverride
         {
             IsHappy = true;
         }
+
+        public override void Eat()
+        {
+            base.Eat();
+        }
+
+        public override void MakeSounds()
+        {
+            Console.WriteLine("Wuuuf!");
+        }
     }
 }
