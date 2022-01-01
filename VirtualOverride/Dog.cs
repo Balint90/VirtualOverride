@@ -24,5 +24,13 @@ namespace VirtualOverride
         {
             Console.WriteLine("Wuuuf!");
         }
+
+        public override void Play()
+        {
+            if (IsHappy)
+            {
+                base.Play();
+            }
+        }
     }
 }

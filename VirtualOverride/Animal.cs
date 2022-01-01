@@ -19,6 +19,7 @@ namespace VirtualOverride
             IsHungry = true;
         }
 
+        //virtual methods can be overridden in inherited classes
         public virtual void MakeSounds()
         {
 
